@@ -1,0 +1,174 @@
+header{
+background-color: #fcd4fc;
+font-variant:small-caps;
+text-align: center;
+text-decoration: underline;
+border-style: solid;
+clear:both;
+}
+
+.imagentamaño{
+	width: 1800px;
+	height: 735px;
+}
+
+header a{
+	float:right;
+	width: 10%;
+
+}
+
+.logo{
+	width: 20%;
+	height: 20%;
+	margin-left: 23%;
+}
+
+
+.menu {
+    background-color:#bdf8ff;
+    text-align: center;
+
+}
+    .menu ul{
+        list-style: none;
+        display: inline-block;
+    }
+        .menu ul li{
+            float: left;
+            padding: 20px;
+        }
+            .menu ul li a{
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 20px;
+            }
+                .menu ul li:hover{
+                    background-color: black;
+                }
+
+}
+
+
+/*.secc {
+display:inline;
+width: 23.85%;
+text-align: center;
+text-decoration:none;
+font-size:17px;
+color:white;
+border-width:12px;
+border-right:1px solid white;
+background-color:#bdf8ff;
+padding:10px;
+margin-bottom:1em;
+
+
+}
+*/
+
+.secc:hover {background-color:#029eb3;}
+li.menu {display:inline;}
+
+
+
+
+body {
+	background-color: #e6ffed;
+	font-size: 20px;
+}
+
+
+footer{
+background-color: #fcd4fc;
+font-variant:small-caps;
+text-align: center;
+text-decoration: underline;
+border-style: solid;
+clear:both;
+}
+
+#telf{
+
+	float:left;
+	width: 20%;
+	margin-top: 5%;
+}
+
+#c_elec{
+	float:right;
+	width: 20%;
+	margin-top:5%;
+}
+
+
+
+section img{
+	float:left;
+	width: 20%;
+	margin-top:5%; 
+	margin-bottom:5%;
+}
+
+section h2{
+	float:right;
+	width: 20%;
+	margin-right:30%;
+	margin-top:7%;
+}
+
+
+ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+.menu li>ul{
+
+	display:none;
+}
+
+.menu li:hover>ul{
+	display:block;
+	position: absolute;
+	background-color: black;
+}
+
+.menu li ul li{
+	position :relative;
+}
